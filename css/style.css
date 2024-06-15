@@ -1,0 +1,82 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+.navimg{
+    width: 15%;
+}
+.nav-link{
+  color: #ffffff;
+}
+header {
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/pexels-rpnickson-2775196.jpg");
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .card {
+    background: rgba(236, 224, 224,0.5) !important;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    border: 3px solid rgb(255, 255, 255) !important;
+  }
+  .cards {
+    border: 200px !important;
+    height: 250px !important;
+  }
+  
+  .sm-card {
+    width: 130px !important;
+    height: fit-content !important;
+    margin: 10px;
+  }
+  .bg-card {
+    width: 200px !important;
+    height: 270px !important;
+  }
+  .bg-card img {
+    margin-inline: auto;
+    width: 80px;
+    height: 80px;
+  }
+  .sm-card img {
+    margin-inline: auto;
+    width: 50px !important;
+    height: 50px !important;
+  }
+  
+  h6 {
+    margin-top: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(252, 254, 255);
+  }
+  
+  .card:hover {
+    box-sizing: border-box;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+    transform: scale(1.2);
+    transition-duration: 1s;
+    border: #ffffff !important;
+  }
+ 
+  .search {
+    background-color:  rgba(236, 224, 224,0.5) !important;
+    color: beige !important;
+    font-size: 20px;
+  }
+  .search:focus {
+    box-shadow: 5px 5px 10px #240101a8 !important;
+  }
+  
+  
+  ::placeholder {
+    color: #ffffff !important;
+  }
+  h6 {
+    margin-top: 10px;
+  }
+  
